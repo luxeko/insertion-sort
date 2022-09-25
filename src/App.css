@@ -2,9 +2,26 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+html {
+    overflow-x: hidden;
+    scroll-margin-top:  8.5rem;
+
+}
+html::-webkit-scrollbar{
+    width: 0.3rem;
+}
+html::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+html::-webkit-scrollbar-thumb{
+    background:#4267B2;
+    border-radius: 5rem;
 }
 body {
     background: linear-gradient(45deg, #fbda61, #e06fbe);
+    background-repeat: no-repeat;
 }
 .App {
     display: flex;

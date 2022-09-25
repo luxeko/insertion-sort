@@ -7,6 +7,7 @@ import img2 from '../Assets/Example/insertion-sort-2.jpg'
 import img3 from '../Assets/Example/insertion-sort-3.jpg'
 import img4 from '../Assets/Example/insertion-sort-4.jpg'
 import img5 from '../Assets/Example/insertion-sort-5.jpg'
+
 export default function InsertionSort() {
     const [loading, setLoading] = useState(false);
     // useEffect(() => {
